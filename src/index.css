@@ -1,0 +1,32 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-image: linear-gradient(rgb(182, 255, 177), rgba(0, 247, 255, 0.42))
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: bold !important;
+}
+
+#contact-box {
+    width: 750px;
+    height: 150px;
+    border: solid black 2px;
+    margin: auto;
+}
+
+#add-box {
+    width: 750px;
+    height: 400px;
+    border: solid black 1px;
+    margin: auto;
+}
+
+.form-control {
+    width: 600px;
+}
