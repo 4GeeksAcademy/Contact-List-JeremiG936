@@ -26,7 +26,7 @@ const AddContact = () => {
     function adder() {
         let newContact = {name: nameValue, phone: phoneValue, email: emailValue, address: addressValue}
         fetch("https://playground.4geeks.com/contact/agendas/jeremi_gonzalez/contacts", {
-            method: 'Post',
+            method: 'POST',
             body: JSON.stringify(newContact),
             headers: {
                 'Content-Type': 'application/json'
@@ -57,7 +57,7 @@ const AddContact = () => {
                         <input type="text"className="form-control" onChange={grabber1} />
                     </div>
                     <div className="mb-3">
-                        <h5>Email</h5>
+                        <h5>Name</h5>
                         <input type="text" className="form-control" onChange={grabber3} />
                     </div>
                     <div className="mb-3">
