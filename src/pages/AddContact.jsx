@@ -57,7 +57,7 @@ const AddContact = () => {
                         <input type="text"className="form-control" onChange={grabber1} />
                     </div>
                     <div className="mb-3">
-                        <h5>Name</h5>
+                        <h5>Email</h5>
                         <input type="text" className="form-control" onChange={grabber3} />
                     </div>
                     <div className="mb-3">
